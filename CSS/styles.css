@@ -3,16 +3,23 @@
 @import "./variables.css";
 
 /* Components */
-@import "./components/status-bar.css";
-@import "./components/nav-bar.css";
 @import "./components/screen-header.css";
+@import "./components/user.css";
+@import "./components/nav-bar.css";
+@import "./components/status-bar.css";
 
 /* Screens */
 @import "./screens/login.css";
-@import "./components/status-bar.css";
+@import "./screens/friends.css";
 
 body {
   font-family: "Open Sans 600", sans-serif;
-  padding-top: 30px;
-  height: 3000vh;
+  padding-top: 26px;
+  color: #2e363e;
+}
+
+.screen {
+  padding-top: 68px;
+  display: flex;
+  flex-direction: column;
 }

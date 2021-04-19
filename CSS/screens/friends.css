@@ -1,0 +1,25 @@
+#friends-display-link {
+  text-align: center;
+  width: 100%;
+  font-weight: 500;
+  padding: 15px 0px;
+  background-color: #f0f0f0;
+}
+
+#friends-display-link i {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.friends-list {
+  padding: 0px var(--horizontal-space);
+  margin-top: 10px;
+}
+
+.friends-list__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: gray;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  padding-top: 15px;
+}
