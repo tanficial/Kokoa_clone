@@ -1,0 +1,11 @@
+.noti {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.4rem;
+  width: 1.4rem;
+  background-color: tomato;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+}

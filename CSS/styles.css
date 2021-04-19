@@ -2,15 +2,16 @@
 @import "./reset.css";
 @import "./variables.css";
 
+/* Screens */
+@import "./screens/login.css";
+@import "./screens/friends.css";
+
 /* Components */
 @import "./components/screen-header.css";
 @import "./components/user.css";
 @import "./components/nav-bar.css";
 @import "./components/status-bar.css";
-
-/* Screens */
-@import "./screens/login.css";
-@import "./screens/friends.css";
+@import "./components/notification.css";
 
 body {
   font-family: "Open Sans 600", sans-serif;
@@ -18,8 +19,14 @@ body {
   color: #2e363e;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .screen {
   padding-top: 68px;
   display: flex;
   flex-direction: column;
+  margin: 0px var(--horizontal-space);
+  padding-bottom: 66px;
 }
