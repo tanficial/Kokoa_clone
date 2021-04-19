@@ -4,12 +4,15 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 5px 3px;
+  box-sizing: border-box;
   font-weight: bold;
   background-color: white;
 }
 
 .status-bar__column {
+  display: flex;
   width: 33%;
 }
 
@@ -23,7 +26,6 @@
 }
 
 .status-bar__column:last-child {
-  display: flex;
   justify-content: flex-end;
   align-items: center;
 }
