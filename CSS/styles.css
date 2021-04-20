@@ -6,6 +6,7 @@
 @import "./screens/login.css";
 @import "./screens/friends.css";
 @import "./screens/more.css";
+@import "./screens/settings.css";
 
 /* Components */
 @import "./components/screen-header.css";
@@ -21,10 +22,6 @@ body {
   font-family: "Open Sans 600", sans-serif;
   padding-top: 26px;
   color: #2e363e;
-}
-
-body::-webkit-scrollbar {
-  display: none;
 }
 
 .screen {

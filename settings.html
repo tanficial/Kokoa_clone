@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings - Kokoa Clone</title>
+    <link rel="stylesheet" href="./CSS/styles.css" />
+  </head>
+  <body>
+    <!-- Status Bar -->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>98%</span>
+        <i class="fas fa-battery-three-quarters fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <!-- Settings Screen Header -->
+    <header class="screen-header settings">
+      <a href="javascript:history.back()">
+        <i class="fas fa-chevron-left"></i>
+      </a>
+      <h1 class="screen-header__title">Settings</h1>
+      <ul class="screen-header__menu">
+        <li>
+          <a href="#"><i class="fab fa-sistrix fa-lg"></i></a>
+        </li>
+      </ul>
+    </header>
+
+    <!-- Settings Screen -->
+    <main class="screen">
+      <ul class="settings-list">
+        <li class="settings-list__setting">
+          <i class="fas fa-bullhorn"></i>
+          <span class="setting">Notice</span>
+        </li>
+        <li class="settings-list__setting">
+          <i class="fas fa-flask"></i>
+          <span class="setting">Kokoa Lab</span>
+        </li>
+        <li class="settings-list__setting">
+          <i class="fas fa-info-circle"></i>
+          <span class="setting">Version</span>
+          <span class="setting-state">Latest Version</span>
+        </li>
+      </ul>
+      <div class="list-divider"></div>
+      <ul class="settings-list">
+        <li class="settings-list__setting">
+          <i class="fas fa-lock"></i>
+          <span class="setting">Privacy</span>
+        </li>
+        <li class="settings-list__setting">
+          <i class="far fa-bell"></i>
+          <span class="setting">Notifications</span>
+        </li>
+        <li class="settings-list__setting">
+          <i class="far fa-user"></i>
+          <span class="setting">Friends</span>
+        </li>
+        <li class="settings-list__setting">
+          <i class="far fa-comment"></i>
+          <span class="setting">Chats</span>
+        </li>
+        <li class="settings-list__setting">
+          <i class="far fa-sun"></i>
+          <span class="setting">Display</span>
+          <span class="noti lg">N</span>
+        </li>
+        <li class="settings-list__setting">
+          <i class="fas fa-brush"></i>
+          <span class="setting">Themes</span>
+          <span class="noti lg">N</span>
+          <span class="setting-state">Default theme</span>
+        </li>
+        <li class="settings-list__setting">
+          <i class="fas fa-phone-alt"></i>
+          <span class="setting">Call</span>
+        </li>
+      </ul>
+    </main>
+
+    <!-- Navigation Bar -->
+    <nav>
+      <ul>
+        <li>
+          <a href="./friends.html"><i class="far fa-user fa-lg"></i></a>
+        </li>
+        <li>
+          <span class="noti">2</span>
+          <a href="./chats.html"><i class="far fa-comment fa-lg"></i></a>
+        </li>
+        <li>
+          <a href="./find.html"><i class="fab fa-sistrix fa-lg"></i></a>
+        </li>
+        <li>
+          <span class="noti nt-sm"></span>
+          <a href="./more.html"><i class="fas fa-ellipsis-h fa-lg"></i></a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
