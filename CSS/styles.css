@@ -5,6 +5,7 @@
 /* Screens */
 @import "./screens/login.css";
 @import "./screens/friends.css";
+@import "./screens/find.css";
 
 /* Components */
 @import "./components/screen-header.css";
@@ -12,6 +13,8 @@
 @import "./components/nav-bar.css";
 @import "./components/status-bar.css";
 @import "./components/notification.css";
+@import "./components/friends-list.css";
+@import "./components/open-chat.css";
 
 body {
   font-family: "Open Sans 600", sans-serif;

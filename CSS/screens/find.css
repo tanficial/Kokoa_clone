@@ -1,0 +1,28 @@
+.find-header {
+  margin: 20px 0px;
+}
+.find-header ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.find-header .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  justify-content: space-between;
+}
+
+.find-header .item i {
+  margin: 10px;
+}
+.find-header .item span {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.find-header .item * {
+  height: 50%;
+}

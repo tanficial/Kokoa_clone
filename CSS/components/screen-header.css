@@ -20,4 +20,10 @@
 
 .screen-header__menu li {
   margin-left: 20px;
+  position: relative;
+}
+
+.screen-header .noti {
+  top: -8px;
+  right: -8px;
 }

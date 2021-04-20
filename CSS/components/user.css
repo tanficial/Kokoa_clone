@@ -70,3 +70,7 @@
 .user-component__chat * {
   margin: 4px 0px;
 }
+
+.user-component__chat .noti {
+  position: initial;
+}
