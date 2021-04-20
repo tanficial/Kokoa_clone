@@ -45,6 +45,21 @@
 
 .user-component__subtitle {
   color: gray;
+  display: flex;
+  align-items: center;
+}
+
+.user-component__subtitle .i-mark {
+  border-radius: 50%;
+  color: tomato;
+  font-weight: bold;
+  border: 2px solid tomato;
+  display: inline-block;
+  text-align: center;
+  font-size: 0.8rem;
+  height: 0.8rem;
+  width: 0.8rem;
+  margin: 0px 5px;
 }
 
 .user-component__column:last-child {
@@ -52,12 +67,12 @@
   color: gray;
 }
 
-.user-component__extend {
+.user-component__icon {
   display: flex;
   align-items: center;
 }
 
-.user-component__extend span {
+.user-component__icon span {
   padding-right: 3px;
 }
 

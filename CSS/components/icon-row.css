@@ -1,0 +1,35 @@
+.icon-row {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.icon-row__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.icon-row__item i {
+  margin: 10px;
+}
+
+.icon-row__item img {
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.icon-row__item span {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.icon-row__item * {
+  height: 50%;
+}
