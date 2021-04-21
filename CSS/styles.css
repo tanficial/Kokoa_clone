@@ -18,6 +18,7 @@
 @import "./components/friends-list.css";
 @import "./components/open-chat.css";
 @import "./components/icon-row.css";
+@import "./components/write-message.css";
 
 body {
   font-family: "Open Sans 600", sans-serif;

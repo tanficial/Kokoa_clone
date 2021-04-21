@@ -8,6 +8,6 @@
 - 2021.04.19 : Create friends.html, Nav Bar, Screen Header, User Component, Friends Screen, Chats Screen
 - 2021.04.20 : Create Find Screen, Open Chat Component, More Screen, icon-row, Settings Screen
 
-- 2021.04.21 : Create Chat Screen
+- 2021.04.21 : Create Chat Screen, Write Message Bar
 
 ---

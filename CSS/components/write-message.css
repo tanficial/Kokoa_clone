@@ -1,0 +1,48 @@
+.write {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 5px;
+
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.write__column {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.write__column:last-child {
+  width: 100%;
+  border: 1px solid rgb(180, 180, 180);
+  border-radius: 20px;
+  padding: 2px;
+  box-sizing: border-box;
+  background-color: rgb(220, 220, 220);
+}
+
+.write__column:nth-child(2) > i {
+  margin-right: 10px;
+}
+
+.write input {
+  border: none;
+  width: 100%;
+  background-color: rgb(220, 220, 220);
+  padding-left: 12px;
+}
+.write button {
+  background-color: var(--yellow);
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  width: 1.8rem;
+  height: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
