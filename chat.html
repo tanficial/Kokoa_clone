@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat - Kokoa Clone</title>
+    <link rel="stylesheet" href="./CSS/styles.css" />
+  </head>
+  <body class="chat-screen">
+    <!-- Status Bar -->
+    <div class="status-bar chat-screen">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>98%</span>
+        <i class="fas fa-battery-three-quarters fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <!-- Settings Screen Header -->
+    <header class="screen-header settings chat-screen">
+      <a href="javascript:history.back()">
+        <i class="fas fa-chevron-left"></i>
+      </a>
+      <h1 class="screen-header__title">Friend</h1>
+      <ul class="screen-header__menu">
+        <li>
+          <a href="#"><i class="fab fa-sistrix fa-lg"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-bars"></i></a>
+        </li>
+      </ul>
+    </header>
+
+    <main class="screen chat-screen">
+      <ul class="message-list">
+        <li class="system-message">
+          <span>Tuesday, June 30, 2020</span>
+        </li>
+        <li class="message">
+          <div class="message__column">
+            <img src="https://picsum.photos/100" alt="" />
+          </div>
+          <div class="message__column">
+            <span class="message__name">Friend</span>
+            <div class="message__text">
+              <span>Hello!!!</span>
+              <span>21:27</span>
+            </div>
+          </div>
+        </li>
+        <li class="message send">
+          <div class="message__column">
+            <div class="message__text">
+              <span>What's up???</span>
+              <span>21:27</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

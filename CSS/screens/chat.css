@@ -1,0 +1,71 @@
+.system-message {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.system-message span {
+  background-color: rgba(145, 145, 145, 0.5);
+  border-radius: 10px;
+  padding: 8px;
+  font-size: 0.8rem;
+  color: white;
+}
+
+.message {
+  display: flex;
+  color: gray;
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+}
+
+.message img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 40%;
+}
+
+.message .message__column:nth-child(2) {
+  margin: 0px 10px;
+}
+
+.send {
+  justify-content: flex-end;
+}
+
+.message__name {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.message__text {
+  display: flex;
+  align-items: flex-end;
+}
+
+.message__text > span:first-child {
+  display: inline-block;
+  background-color: white;
+  padding: 8px;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  color: black;
+  font-size: 1rem;
+}
+
+.message__text > span:last-child {
+  margin: 0px 5px;
+}
+
+.send .message__text {
+  flex-direction: row-reverse;
+}
+
+.send .message__text > span:first-child {
+  border-radius: 10px;
+  border-top-right-radius: 0px;
+}
+
+.send .message__text > span:first-child {
+  background-color: var(--yellow);
+}
