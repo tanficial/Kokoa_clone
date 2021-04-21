@@ -3,7 +3,6 @@
   align-items: center;
   background-color: white;
   padding: 5px;
-
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -25,7 +24,7 @@
   background-color: rgb(220, 220, 220);
 }
 
-.write__column:nth-child(2) > i {
+.write__column:last-child > i {
   margin-right: 10px;
 }
 

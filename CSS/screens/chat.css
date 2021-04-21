@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  animation: fadeIn 0.8s ease-in-out;
 }
 
 .system-message span {
@@ -17,6 +18,7 @@
   color: gray;
   font-size: 0.8rem;
   margin-bottom: 20px;
+  animation: fadeInToRight 0.8s ease-in-out;
 }
 
 .message img {
@@ -31,6 +33,7 @@
 
 .send {
   justify-content: flex-end;
+  animation: fadeInToLeft 0.8s ease-in-out;
 }
 
 .message__name {
@@ -68,4 +71,35 @@
 
 .send .message__text > span:first-child {
   background-color: var(--yellow);
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+@keyframes fadeInToRight {
+  from {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+@keyframes fadeInToLeft {
+  from {
+    transform: translateX(20px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
 }

@@ -63,5 +63,20 @@
   color: white;
   padding: 5px;
   font-size: 0.8rem;
-  border-radius: 30%;
+  border-radius: 10px;
+}
+
+.open-chat__avatar:hover .like-btn i {
+  will-change: transform;
+  animation: likeHeartBeatAnimation 0.5s ease-in-out infinite;
+}
+
+@keyframes likeHeartBeatAnimation {
+  from {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  to {
+    transform: none;
+  }
 }

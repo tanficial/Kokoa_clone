@@ -38,3 +38,16 @@
 .screen-header.settings .screen-header__title {
   text-align: center;
 }
+
+.screen-header__menu li i:hover {
+  animation: headerIconAnimation 1s linear infinite;
+}
+
+@keyframes headerIconAnimation {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
