@@ -1,8 +1,10 @@
-# Kokoa-talk clone project
+# [Kokoa-talk](https://tanficial.github.io/Kokoa_clone) clone project
 
 Kakao Talk HTML, CSS clone coding project through Nomadcoder lecture.
 
 노마드코더 강의를 통해 진행한 카카오톡 HTML, CSS 클론 코딩 프로젝트
+
+https://tanficial.github.io/Kokoa_clone
 
 ---
 
